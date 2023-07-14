@@ -4,7 +4,7 @@ application to add your skills :) (basic)
 Guia de instalacion del proyecto:
 antes de la instalacion y la descarga del proyecto debe tener instalado en su maquina php 8.1, mysql 8, composer y nodejs. Tambien es necesario crear una base de datos llamada con el nombre de su preferencia.
 
-1 descargar el proyecto con en la carpeta de su preferencia en su maquina local con el comando "git clone https://github.com/Dorku14/Curriculum.git"
+1 descargar el proyecto con en la carpeta de su preferencia en su maquina local con el comando "git clone https://github.com/Dorku14/Curriculum.git" y moverse a la carpeta que creó el comando donde se encuentran los archivos del proyecto
 
 2  una vez descargado el proyecto ir al archivo .env para modificar unos parametros:
         DB_CONNECTION=mysql
