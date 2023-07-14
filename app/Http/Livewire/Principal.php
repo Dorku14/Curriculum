@@ -4,9 +4,10 @@ namespace App\Http\Livewire;
 use App\Models\habilidades;
 use App\Models\Colores;
 use Livewire\Component;
-
+use Livewire\WithPagination;
 class Principal extends Component
 {
+    use WithPagination;
     public $progreso = 80;
     public function render()
     {
