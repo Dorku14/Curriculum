@@ -1,0 +1,9 @@
+# Ignorar los archivos de node_modules
+node_modules/
+
+# Ignorar los archivos de vendor en Laravel
+/vendor/
+storage/
+bootstrap/
+public/build/
+.env
