@@ -32,3 +32,5 @@ antes de la instalacion y la descarga del proyecto debe tener instalado en su ma
 5 una ves ajecutado los comando ejecutar los siguientes comando en dos terminales, en el primero "npm run dev" y en el segundo "php artisan serv"
 
 6 ir a la url que muestra la termina donde colocó el comando  "php artisan serv"
+
+7 iniciar sesion con correo: alexanderGreen@gmail.com y pass: 123456789 tambien puede crear su usuario pero solo alexanderGreen@gmail.com tendrá los registros de prueba
