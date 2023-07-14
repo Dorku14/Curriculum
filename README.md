@@ -17,6 +17,7 @@ antes de la instalacion y la descarga del proyecto debe tener instalado en su ma
 3  abrir el proyecto usar la linea de comandos puede cmd o powershell asegurese de que la ruta sea en donde se descargó el proyecto
 
 4 usar los siguientes comandos en el orden que se escriben y debe esperar a que termine de ejecutarse cada uno para continuar con el siguiente: 
+
   -"npm install" 
   
   -"composer install"
