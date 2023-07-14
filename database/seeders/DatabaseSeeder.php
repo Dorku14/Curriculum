@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'alexanderGreen@gmail.com',
             'password' => Hash::make('123456789'),
         ]);
-        \App\Models\habilidades::factory()->create(['user_id' => 1] );
+        \App\Models\habilidades::factory()->times(15)->create(['user_id' => 1] );
         $this->call(ColoresSeeder::class);
     }
 }
