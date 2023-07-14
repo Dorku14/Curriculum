@@ -15,11 +15,14 @@ antes de la instalacion y la descarga del proyecto debe tener instalado en su ma
         DB_PASSWORD={password  de la base de datos}
         
 3  abrir el proyecto usar la linea de comandos puede cmd o powershell asegurese de que la ruta sea en donde se descargó el proyecto
+
 4 usar los siguientes comandos en el orden que se escriben y debe esperar a que termine de ejecutarse cada uno para continuar con el siguiente: 
   -"npm install" 
   -"composer install"
   -"php artisan key:generate"
   -"php artisan migrate"
   -"php artisan db:seed"
+  
 5 una ves ajecutado los comando ejecutar los siguientes comando en dos terminales, en el primero "npm run dev" y en el segundo "php artisan serv"
+
 6 ir a la url que muestra la termina donde colocó el comando  "php artisan serv"
