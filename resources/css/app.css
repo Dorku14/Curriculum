@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+.slider-container input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #38a169;
+}
+
+.slider-container input[type="range"]::-moz-range-track {
+    background-color: #38a169;
+}
+
+.slider-container input[type="range"]::-ms-track {
+    background-color: #38a169;
+}
+
+.slider-container input[type="range"]::-webkit-slider-thumb {
+    background-color: #ffffff;
+    border: 2px solid #38a169;
+}
+
+.slider-container input[type="range"]::-moz-range-thumb {
+    background-color: #ffffff;
+    border: 2px solid #38a169;
+}
+
+.slider-container input[type="range"]::-ms-thumb {
+    background-color: #ffffff;
+    border: 2px solid #38a169;
+}
+
+@keyframes wow-effect {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2) rotate(20deg);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container:hover img {
+    animation: wow-effect 1s ease-in-out infinite;
+  }
+  .progress-bar {
+
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 350%;
+    height: 100%;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, #000 4px, #000 5px);
+    animation: progress-animation 2s infinite linear;
+  }
+
+  
+  @keyframes progress-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(10%);
+    }
+  }
+  
+  
+  
+  
