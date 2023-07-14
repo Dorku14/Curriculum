@@ -34,3 +34,5 @@ antes de la instalacion y la descarga del proyecto debe tener instalado en su ma
 6 ir a la url que muestra la termina donde colocó el comando  "php artisan serv"
 
 7 iniciar sesion con correo: alexanderGreen@gmail.com y pass: 123456789 tambien puede crear su usuario pero solo alexanderGreen@gmail.com tendrá los registros de prueba
+
+NOTA: las habilidades que se muestran en Principal son habilidades que define como publicas
